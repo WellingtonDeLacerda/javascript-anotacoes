@@ -69,6 +69,19 @@ Substitui texto.
 ```js
 nome.replace("Wellington", "João")
 ```
+## .replaceAll()
+
+Substitui todas as ocorrências.
+
+```js
+"banana".replaceAll("a", "o")
+```
+
+Resultado:
+
+```js
+"bonono"
+```
 
 ## .slice()
 
@@ -85,3 +98,16 @@ Transforma string em array.
 ```js
 "maçã,uva,banana".split(",")
 ```
+
+## .padStart()
+
+Adiciona caracteres no início da string até atingir um tamanho.
+
+```js
+"5".padStart(2, "0")
+```
+
+Resultado:
+
+```js
+"05"
